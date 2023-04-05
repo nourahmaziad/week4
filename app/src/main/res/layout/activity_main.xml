@@ -8,16 +8,17 @@
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/MineStyle.SecondaryText"
         android:text="Brand_tagline"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        style="@style/MineStyle" />
+        />
 
     <TextView
         android:id="@+id/textView"
-        style="@style/MainStyle.PrimaryText"
+        style="@style/MineStyle.PrimaryText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="brand_name"
